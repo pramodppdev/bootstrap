@@ -4,7 +4,7 @@ import './css/custom.css'
 function AccPP() {
  
   return (
-    <div className='acc-cont'>
+    <div className='m-4'>
         <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">
             <Accordion.Header>Accordion Item #1</Accordion.Header>

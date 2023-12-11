@@ -4,6 +4,7 @@ import PPNav from './components/nav';
 import AccPP from './components/accordings';
 import TablePP from './components/table';
 import Home from './components/pages/home';
+import SignIn from './components/form';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Route exact path="/acc" component={AccPP}></Route>
         <Route exact path="/tab" component={TablePP}></Route>
         <Route exact path="/" component={Home}></Route>
+        <Route exact path="/login" component={SignIn}></Route>
+
 
 
 

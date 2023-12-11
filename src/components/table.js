@@ -3,7 +3,7 @@ import './css/custom.css'
 
 function TablePP() {
   return (
-    <div className='tab-align'>
+    <div className='m-4 p-3 shadow'>
     <Table responsive>
       <thead>
         <tr>
